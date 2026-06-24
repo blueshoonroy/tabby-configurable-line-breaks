@@ -20,6 +20,11 @@
     "typings",
     "src"
   ],
+  "author": "blueshoonroy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blueshoonroy/tabby-configurable-line-breaks.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "20.3.1",
