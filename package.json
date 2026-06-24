@@ -1,0 +1,37 @@
+{
+  "name": "tabby-configurable-line-breaks",
+  "version": "1.0.0",
+  "description": "A rebindable insert-line-break hotkey for the Tabby terminal",
+  "keywords": [
+    "tabby-plugin",
+    "tabby",
+    "hotkey",
+    "line-break",
+    "newline"
+  ],
+  "main": "dist/index.js",
+  "typings": "typings/index.d.ts",
+  "scripts": {
+    "build": "webpack --progress --color",
+    "watch": "webpack --progress --color --watch"
+  },
+  "files": [
+    "dist",
+    "typings",
+    "src"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "20.3.1",
+    "ts-loader": "^9.4.0",
+    "typescript": "^5.1.0",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.0"
+  },
+  "peerDependencies": {
+    "@angular/core": "^15",
+    "rxjs": "^7",
+    "tabby-core": "*",
+    "tabby-terminal": "*"
+  }
+}
